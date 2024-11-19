@@ -1,5 +1,5 @@
-#ifndef OSON_RMP_SERVICE_UTILS_JSONCPP_UTILS_H_
-#define OSON_RMP_SERVICE_UTILS_JSONCPP_UTILS_H_
+#ifndef JSONCPP_UTILS_H_
+#define JSONCPP_UTILS_H_
 
 #include <string>
 #include <type_traits>
@@ -177,4 +177,4 @@ std::shared_ptr<Json::Value>& operator<<(std::shared_ptr<Json::Value>& json, con
     return json;
 }
 
-#endif //OSON_RMP_SERVICE_UTILS_JSONCPP_UTILS_H_
+#endif // JSONCPP_UTILS_H_
